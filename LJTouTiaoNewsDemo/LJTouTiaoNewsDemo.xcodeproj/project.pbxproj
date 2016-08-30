@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440842F21D6E7BC300A48DB2 /* LJWelcomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 440842F11D6E7BC300A48DB2 /* LJWelcomeVC.m */; };
+		442124A71D59CE2B00F8160E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124A61D59CE2B00F8160E /* main.m */; };
+		442124AA1D59CE2B00F8160E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124A91D59CE2B00F8160E /* AppDelegate.m */; };
+		442124B01D59CE2B00F8160E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442124AE1D59CE2B00F8160E /* Main.storyboard */; };
+		442124B51D59CE2B00F8160E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 442124B31D59CE2B00F8160E /* LaunchScreen.storyboard */; };
+		442124BE1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124BD1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.m */; };
+		442124C21D59D07400F8160E /* LJReadNewsNC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124C11D59D07400F8160E /* LJReadNewsNC.m */; };
+		442124C51D59D0AA00F8160E /* LJBrowseNewsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124C41D59D0AA00F8160E /* LJBrowseNewsVC.m */; };
+		442124C81D59D1A700F8160E /* LJNColumnView.m in Sources */ = {isa = PBXBuildFile; fileRef = 442124C71D59D1A700F8160E /* LJNColumnView.m */; };
+		442124CA1D59D1B100F8160E /* LJNColumnView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 442124C91D59D1B100F8160E /* LJNColumnView.xib */; };
+		448860D81D6C7C960089CEC9 /* WelComeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 448860D71D6C7C960089CEC9 /* WelComeStoryboard.storyboard */; };
+		448860DA1D6C7E560089CEC9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448860D91D6C7E560089CEC9 /* Images.xcassets */; };
+		449AB3C01D5AB7E200DAC4FD /* LJEditNewsColumnVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AB3BE1D5AB7E200DAC4FD /* LJEditNewsColumnVC.m */; };
+		449AB3C51D5AC44300DAC4FD /* LJNewsColumnStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AB3C41D5AC44300DAC4FD /* LJNewsColumnStore.m */; };
+		449AB3C71D5ACCD400DAC4FD /* NewsColumStore.plist in Resources */ = {isa = PBXBuildFile; fileRef = 449AB3C61D5ACCD400DAC4FD /* NewsColumStore.plist */; };
+		449AB3CA1D5AD1A700DAC4FD /* LJNewsColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = 449AB3C91D5AD1A700DAC4FD /* LJNewsColumn.m */; };
+		44BFC61D1D6E9465007E3409 /* LJLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BFC61C1D6E9465007E3409 /* LJLoginVC.m */; };
+		44BFC6231D6EB165007E3409 /* LJSignUpVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BFC6221D6EB165007E3409 /* LJSignUpVC.m */; };
+		44BFC6251D6ECDE0007E3409 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44BFC6241D6ECDE0007E3409 /* Assets.xcassets */; };
+		44BFC6401D6EFD87007E3409 /* LJUserManagerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 44BFC63F1D6EFD87007E3409 /* LJUserManagerVC.m */; };
+		44CEA4BA1D5B1BAD00A55044 /* LJNewsColumnButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA4B91D5B1BAD00A55044 /* LJNewsColumnButton.m */; };
+		44CEA4BD1D5B37E400A55044 /* LJNCBGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEA4BC1D5B37E400A55044 /* LJNCBGestureRecognizer.m */; };
+		44D283281D5C90240028B31A /* LJNewsListCellOne.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D283261D5C90240028B31A /* LJNewsListCellOne.m */; };
+		44D283291D5C90240028B31A /* LJNewsListCellOne.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D283271D5C90240028B31A /* LJNewsListCellOne.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		440842F01D6E7BC300A48DB2 /* LJWelcomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJWelcomeVC.h; sourceTree = "<group>"; };
+		440842F11D6E7BC300A48DB2 /* LJWelcomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJWelcomeVC.m; sourceTree = "<group>"; };
+		442124A21D59CE2B00F8160E /* LJTouTiaoNewsDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJTouTiaoNewsDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		442124A61D59CE2B00F8160E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		442124A81D59CE2B00F8160E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		442124A91D59CE2B00F8160E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		442124AF1D59CE2B00F8160E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		442124B41D59CE2B00F8160E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		442124B61D59CE2B00F8160E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		442124BC1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJTouTiaoNewsMainVC.h; sourceTree = "<group>"; };
+		442124BD1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJTouTiaoNewsMainVC.m; sourceTree = "<group>"; };
+		442124C01D59D07400F8160E /* LJReadNewsNC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJReadNewsNC.h; sourceTree = "<group>"; };
+		442124C11D59D07400F8160E /* LJReadNewsNC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJReadNewsNC.m; sourceTree = "<group>"; };
+		442124C31D59D0AA00F8160E /* LJBrowseNewsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJBrowseNewsVC.h; sourceTree = "<group>"; };
+		442124C41D59D0AA00F8160E /* LJBrowseNewsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJBrowseNewsVC.m; sourceTree = "<group>"; };
+		442124C61D59D1A700F8160E /* LJNColumnView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJNColumnView.h; path = ../LJNColumnView.h; sourceTree = "<group>"; };
+		442124C71D59D1A700F8160E /* LJNColumnView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJNColumnView.m; path = ../LJNColumnView.m; sourceTree = "<group>"; };
+		442124C91D59D1B100F8160E /* LJNColumnView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LJNColumnView.xib; path = ../LJNColumnView.xib; sourceTree = "<group>"; };
+		448860D71D6C7C960089CEC9 /* WelComeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WelComeStoryboard.storyboard; sourceTree = "<group>"; };
+		448860D91D6C7E560089CEC9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		449AB3BD1D5AB7E200DAC4FD /* LJEditNewsColumnVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJEditNewsColumnVC.h; path = ../LJEditNewsColumnVC.h; sourceTree = "<group>"; };
+		449AB3BE1D5AB7E200DAC4FD /* LJEditNewsColumnVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJEditNewsColumnVC.m; path = ../LJEditNewsColumnVC.m; sourceTree = "<group>"; };
+		449AB3C31D5AC44300DAC4FD /* LJNewsColumnStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewsColumnStore.h; sourceTree = "<group>"; };
+		449AB3C41D5AC44300DAC4FD /* LJNewsColumnStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewsColumnStore.m; sourceTree = "<group>"; };
+		449AB3C61D5ACCD400DAC4FD /* NewsColumStore.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = NewsColumStore.plist; sourceTree = "<group>"; };
+		449AB3C81D5AD1A700DAC4FD /* LJNewsColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewsColumn.h; sourceTree = "<group>"; };
+		449AB3C91D5AD1A700DAC4FD /* LJNewsColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewsColumn.m; sourceTree = "<group>"; };
+		44BFC61B1D6E9465007E3409 /* LJLoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJLoginVC.h; sourceTree = "<group>"; };
+		44BFC61C1D6E9465007E3409 /* LJLoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJLoginVC.m; sourceTree = "<group>"; };
+		44BFC6211D6EB165007E3409 /* LJSignUpVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJSignUpVC.h; sourceTree = "<group>"; };
+		44BFC6221D6EB165007E3409 /* LJSignUpVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJSignUpVC.m; sourceTree = "<group>"; };
+		44BFC6241D6ECDE0007E3409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44BFC63E1D6EFD87007E3409 /* LJUserManagerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJUserManagerVC.h; sourceTree = "<group>"; };
+		44BFC63F1D6EFD87007E3409 /* LJUserManagerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJUserManagerVC.m; sourceTree = "<group>"; };
+		44CEA4B81D5B1BAD00A55044 /* LJNewsColumnButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewsColumnButton.h; sourceTree = "<group>"; };
+		44CEA4B91D5B1BAD00A55044 /* LJNewsColumnButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewsColumnButton.m; sourceTree = "<group>"; };
+		44CEA4BB1D5B37E400A55044 /* LJNCBGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNCBGestureRecognizer.h; sourceTree = "<group>"; };
+		44CEA4BC1D5B37E400A55044 /* LJNCBGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNCBGestureRecognizer.m; sourceTree = "<group>"; };
+		44D283251D5C90240028B31A /* LJNewsListCellOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LJNewsListCellOne.h; sourceTree = "<group>"; };
+		44D283261D5C90240028B31A /* LJNewsListCellOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LJNewsListCellOne.m; sourceTree = "<group>"; };
+		44D283271D5C90240028B31A /* LJNewsListCellOne.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LJNewsListCellOne.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4421249F1D59CE2B00F8160E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		442124991D59CE2B00F8160E = {
+			isa = PBXGroup;
+			children = (
+				442124A41D59CE2B00F8160E /* LJTouTiaoNewsDemo */,
+				442124A31D59CE2B00F8160E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		442124A31D59CE2B00F8160E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				442124A21D59CE2B00F8160E /* LJTouTiaoNewsDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		442124A41D59CE2B00F8160E /* LJTouTiaoNewsDemo */ = {
+			isa = PBXGroup;
+			children = (
+				44BFC6261D6ED6DB007E3409 /* LJUserManager */,
+				448860D31D6C70500089CEC9 /* WelcomeYou */,
+				442124BF1D59CF3000F8160E /* ReadNews */,
+				442124A81D59CE2B00F8160E /* AppDelegate.h */,
+				442124A91D59CE2B00F8160E /* AppDelegate.m */,
+				442124BC1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.h */,
+				442124BD1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.m */,
+				442124AE1D59CE2B00F8160E /* Main.storyboard */,
+				442124B61D59CE2B00F8160E /* Info.plist */,
+				448860D91D6C7E560089CEC9 /* Images.xcassets */,
+				44BFC6241D6ECDE0007E3409 /* Assets.xcassets */,
+				442124B31D59CE2B00F8160E /* LaunchScreen.storyboard */,
+				442124A51D59CE2B00F8160E /* Supporting Files */,
+			);
+			path = LJTouTiaoNewsDemo;
+			sourceTree = "<group>";
+		};
+		442124A51D59CE2B00F8160E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				442124A61D59CE2B00F8160E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		442124BF1D59CF3000F8160E /* ReadNews */ = {
+			isa = PBXGroup;
+			children = (
+				44D283241D5C8FD50028B31A /* NewsListStore */,
+				449AB3C21D5AC40500DAC4FD /* NewsColumnStore */,
+				442124C01D59D07400F8160E /* LJReadNewsNC.h */,
+				442124C11D59D07400F8160E /* LJReadNewsNC.m */,
+				442124C31D59D0AA00F8160E /* LJBrowseNewsVC.h */,
+				442124C41D59D0AA00F8160E /* LJBrowseNewsVC.m */,
+			);
+			path = ReadNews;
+			sourceTree = "<group>";
+		};
+		448860D31D6C70500089CEC9 /* WelcomeYou */ = {
+			isa = PBXGroup;
+			children = (
+				440842F01D6E7BC300A48DB2 /* LJWelcomeVC.h */,
+				440842F11D6E7BC300A48DB2 /* LJWelcomeVC.m */,
+				44BFC61B1D6E9465007E3409 /* LJLoginVC.h */,
+				44BFC61C1D6E9465007E3409 /* LJLoginVC.m */,
+				44BFC6211D6EB165007E3409 /* LJSignUpVC.h */,
+				44BFC6221D6EB165007E3409 /* LJSignUpVC.m */,
+				448860D71D6C7C960089CEC9 /* WelComeStoryboard.storyboard */,
+			);
+			path = WelcomeYou;
+			sourceTree = "<group>";
+		};
+		449AB3C21D5AC40500DAC4FD /* NewsColumnStore */ = {
+			isa = PBXGroup;
+			children = (
+				449AB3BD1D5AB7E200DAC4FD /* LJEditNewsColumnVC.h */,
+				449AB3BE1D5AB7E200DAC4FD /* LJEditNewsColumnVC.m */,
+				442124C61D59D1A700F8160E /* LJNColumnView.h */,
+				442124C71D59D1A700F8160E /* LJNColumnView.m */,
+				442124C91D59D1B100F8160E /* LJNColumnView.xib */,
+				449AB3C31D5AC44300DAC4FD /* LJNewsColumnStore.h */,
+				449AB3C41D5AC44300DAC4FD /* LJNewsColumnStore.m */,
+				449AB3C61D5ACCD400DAC4FD /* NewsColumStore.plist */,
+				449AB3C81D5AD1A700DAC4FD /* LJNewsColumn.h */,
+				449AB3C91D5AD1A700DAC4FD /* LJNewsColumn.m */,
+				44CEA4B81D5B1BAD00A55044 /* LJNewsColumnButton.h */,
+				44CEA4B91D5B1BAD00A55044 /* LJNewsColumnButton.m */,
+				44CEA4BB1D5B37E400A55044 /* LJNCBGestureRecognizer.h */,
+				44CEA4BC1D5B37E400A55044 /* LJNCBGestureRecognizer.m */,
+			);
+			path = NewsColumnStore;
+			sourceTree = "<group>";
+		};
+		44BFC6261D6ED6DB007E3409 /* LJUserManager */ = {
+			isa = PBXGroup;
+			children = (
+				44BFC63E1D6EFD87007E3409 /* LJUserManagerVC.h */,
+				44BFC63F1D6EFD87007E3409 /* LJUserManagerVC.m */,
+			);
+			path = LJUserManager;
+			sourceTree = "<group>";
+		};
+		44D283241D5C8FD50028B31A /* NewsListStore */ = {
+			isa = PBXGroup;
+			children = (
+				44D283251D5C90240028B31A /* LJNewsListCellOne.h */,
+				44D283261D5C90240028B31A /* LJNewsListCellOne.m */,
+				44D283271D5C90240028B31A /* LJNewsListCellOne.xib */,
+			);
+			name = NewsListStore;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		442124A11D59CE2B00F8160E /* LJTouTiaoNewsDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 442124B91D59CE2B00F8160E /* Build configuration list for PBXNativeTarget "LJTouTiaoNewsDemo" */;
+			buildPhases = (
+				4421249E1D59CE2B00F8160E /* Sources */,
+				4421249F1D59CE2B00F8160E /* Frameworks */,
+				442124A01D59CE2B00F8160E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJTouTiaoNewsDemo;
+			productName = LJTouTiaoNewsDemo;
+			productReference = 442124A21D59CE2B00F8160E /* LJTouTiaoNewsDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4421249A1D59CE2B00F8160E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "刘瑾";
+				TargetAttributes = {
+					442124A11D59CE2B00F8160E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8J6Q958274;
+					};
+				};
+			};
+			buildConfigurationList = 4421249D1D59CE2B00F8160E /* Build configuration list for PBXProject "LJTouTiaoNewsDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 442124991D59CE2B00F8160E;
+			productRefGroup = 442124A31D59CE2B00F8160E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				442124A11D59CE2B00F8160E /* LJTouTiaoNewsDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		442124A01D59CE2B00F8160E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442124CA1D59D1B100F8160E /* LJNColumnView.xib in Resources */,
+				448860DA1D6C7E560089CEC9 /* Images.xcassets in Resources */,
+				44D283291D5C90240028B31A /* LJNewsListCellOne.xib in Resources */,
+				442124B51D59CE2B00F8160E /* LaunchScreen.storyboard in Resources */,
+				448860D81D6C7C960089CEC9 /* WelComeStoryboard.storyboard in Resources */,
+				449AB3C71D5ACCD400DAC4FD /* NewsColumStore.plist in Resources */,
+				44BFC6251D6ECDE0007E3409 /* Assets.xcassets in Resources */,
+				442124B01D59CE2B00F8160E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4421249E1D59CE2B00F8160E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				449AB3C01D5AB7E200DAC4FD /* LJEditNewsColumnVC.m in Sources */,
+				440842F21D6E7BC300A48DB2 /* LJWelcomeVC.m in Sources */,
+				442124C81D59D1A700F8160E /* LJNColumnView.m in Sources */,
+				44CEA4BD1D5B37E400A55044 /* LJNCBGestureRecognizer.m in Sources */,
+				44CEA4BA1D5B1BAD00A55044 /* LJNewsColumnButton.m in Sources */,
+				44BFC6401D6EFD87007E3409 /* LJUserManagerVC.m in Sources */,
+				442124AA1D59CE2B00F8160E /* AppDelegate.m in Sources */,
+				44BFC61D1D6E9465007E3409 /* LJLoginVC.m in Sources */,
+				442124C21D59D07400F8160E /* LJReadNewsNC.m in Sources */,
+				449AB3C51D5AC44300DAC4FD /* LJNewsColumnStore.m in Sources */,
+				442124BE1D59CEEC00F8160E /* LJTouTiaoNewsMainVC.m in Sources */,
+				442124C51D59D0AA00F8160E /* LJBrowseNewsVC.m in Sources */,
+				449AB3CA1D5AD1A700DAC4FD /* LJNewsColumn.m in Sources */,
+				442124A71D59CE2B00F8160E /* main.m in Sources */,
+				44BFC6231D6EB165007E3409 /* LJSignUpVC.m in Sources */,
+				44D283281D5C90240028B31A /* LJNewsListCellOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		442124AE1D59CE2B00F8160E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				442124AF1D59CE2B00F8160E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		442124B31D59CE2B00F8160E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				442124B41D59CE2B00F8160E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		442124B71D59CE2B00F8160E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		442124B81D59CE2B00F8160E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		442124BA1D59CE2B00F8160E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJTouTiaoNewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJ.LJTouTiaoNewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		442124BB1D59CE2B00F8160E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJTouTiaoNewsDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = LJ.LJTouTiaoNewsDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4421249D1D59CE2B00F8160E /* Build configuration list for PBXProject "LJTouTiaoNewsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442124B71D59CE2B00F8160E /* Debug */,
+				442124B81D59CE2B00F8160E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		442124B91D59CE2B00F8160E /* Build configuration list for PBXNativeTarget "LJTouTiaoNewsDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				442124BA1D59CE2B00F8160E /* Debug */,
+				442124BB1D59CE2B00F8160E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4421249A1D59CE2B00F8160E /* Project object */;
+}
