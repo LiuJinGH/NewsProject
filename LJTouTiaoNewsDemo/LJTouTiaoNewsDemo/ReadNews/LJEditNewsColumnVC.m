@@ -131,7 +131,7 @@
     smallButton.frame = CGRectMake(BUTTONWIDTH-15, -5, 25, 25);
     [smallButton addTarget:self action:@selector(removeNewsColumnToStore:) forControlEvents:UIControlEventTouchUpInside];
     tempButton.smallButton = smallButton ;
-    
+
     //已选择新闻栏目 设置拖动手势
     if (tempButton.newsColumn.columnSelected) {
         LJNCBGestureRecognizer *panGesture = [[LJNCBGestureRecognizer alloc] initWithTarget:self action:@selector(onpanButton:)];

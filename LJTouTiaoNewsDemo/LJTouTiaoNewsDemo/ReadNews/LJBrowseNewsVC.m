@@ -197,14 +197,25 @@
     
     int i = 0;
     //新闻栏按钮的宽度
-    int buttonWidth = 100;
+    NSLog(@"%f", newsScrollView.frame.size.width);
+    int buttonWidth = CGRectGetWidth(newsScrollView.frame) / 4.0;
     CGSize viewSize = newsScrollView.frame.size;
     //向新闻栏添加按钮
     for (LJNewsColumn *newsColumn in allNewsColumns) {
         
         UIButton *button  = [UIButton buttonWithType:UIButtonTypeCustom];
+        CALayer *layer = [CALayer layer];
+        
         //设置按钮的位置
-        [button setFrame:CGRectMake(0 + i * buttonWidth, 0, buttonWidth, viewSize.height-15)];
+        [button setFrame:CGRectMake(0 + i * buttonWidth, 0, buttonWidth, viewSize.height-18)];
+        
+        CGSize size = button.frame.size;
+        layer.frame = CGRectMake(8, 4, size.width-16, size.height-8);
+        layer.cornerRadius = layer.frame.size.height / 2.0;
+        layer.borderColor = [UIColor whiteColor].CGColor;
+        layer.borderWidth = 2.0;
+        [button.layer addSublayer:layer];
+        
         [button setTitle:newsColumn.columnName  forState:UIControlStateNormal];
         [button setTintColor:[UIColor whiteColor]];
         
